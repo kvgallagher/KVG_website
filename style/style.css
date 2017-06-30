@@ -15,7 +15,6 @@ html, body {
   flex-direction: row;
   justify-content: space-between;
   text-transform: uppercase;
-  overflow: hidden;
   border-bottom: 1px solid black;
 }
 
@@ -38,7 +37,7 @@ nav h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 800px;
+  width: 100%;
   height: 400px;
 
   top:0;
@@ -49,6 +48,25 @@ nav h1 {
   margin: auto;
 }
 
-.text1 {
+.icon-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 200px;
+}
 
+.text1 {
+  display: flex;
+  font-family: 'Anonymous Pro', monospace;
+  font-size: 24px;
+  align-self: center;
+  padding-top: 20px;
+}
+
+.fa {
+  color: black;
+}
+
+.fa:hover {
+  color: grey;
 }
