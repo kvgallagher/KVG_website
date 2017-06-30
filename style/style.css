@@ -1,0 +1,54 @@
+html, body {
+  height: 100%;
+  background: white;
+  margin: 0;
+}
+
+.wrapper {
+  position: relative;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-transform: uppercase;
+  overflow: hidden;
+  border-bottom: 1px solid black;
+}
+
+nav h1 {
+  padding-left: 10px;
+}
+
+.navigation {
+  align-self: flex-end;
+}
+
+.navigation li {
+  display: inline-block;
+  padding: 10px;
+  color: black;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  height: 400px;
+
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+}
+
+.text1 {
+
+}
