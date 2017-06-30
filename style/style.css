@@ -70,3 +70,27 @@ nav h1 {
 .fa:hover {
   color: grey;
 }
+
+/* ABOUT ME */
+
+.about-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+}
+
+.about-text {
+  padding-top: 25px;
+}
+
+img {
+  max-width:100%;
+  max-height:100%;
+}
