@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="../style/style.css">
-    <link rel="stylesheet" href="../style/normalize.css">
-    <link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro" rel="stylesheet">
     <meta charset="UTF-8">
     <title>Katherine Gallagher</title>
@@ -13,15 +13,15 @@
     <nav class="top-nav menu p-top-4">
       <h1 class="left">Katherine Gallagher</h1>
       <ul class="navigation">
-          <a href="../index.html"><li>Home</li></a>
+          <a href="index.html"><li>Home</li></a>
           <a href="about.html"><li>About Me</li></a>
           <a href="http://mind.media.mit.edu" target="_blank"><li>Research</li></a>
-          <a href="#" onclick="div_show()"><li>Contact</li></a>
+          <a href="about.html" onclick="div_show()"><li>Contact</li></a>
       </ul>
     </nav>
     <section class="about-wrapper">
       <section class ="width-50">
-        <img src="../images/KVG.png">
+        <img src="images/KVG.png">
       </section>
       <section class="about-text-box width-50">
         <p class="about-heading">Hi, I'm Katherine</p>
@@ -38,17 +38,17 @@
 
   <!-- Contact popup starts here -->
   <div id="contact-popup">
-    <form action="#" id="form" method="post" name="form">
-    <img id="close" src="../images/close-x.png" style="width:30px;height:30px;" onclick ="div_hide()">
+    <form action="about.html" id="form" name="form">
+    <img id="close" src="images/close-x.png" style="width:30px;height:30px;" onclick ="div_hide()">
     <input id="name" name="name" placeholder="Name" type="text">
     <input id="email" name="email" placeholder="Email" type="text">
     <textarea id="msg" name="message"></textarea>
-    <a href="javascript:%20check_empty()" id="submit">Submit</a>
+    <a href="Javascript:%20check_empty()" id="submit">Submit</a>
     </form>
   </div>
 
 </body>
 
-<script src="../js/main.js"></script>
+<script src="js/main.js"></script>
 
 </html>
