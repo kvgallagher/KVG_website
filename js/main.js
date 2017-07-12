@@ -4,7 +4,7 @@ function check_empty() {
 		alert("Please complete all fields.");
 	} else {
 		document.getElementById('form').submit();
-		alert("Thanks for your message!");
+		//alert("Thanks for your message!");
 	}
 }
 

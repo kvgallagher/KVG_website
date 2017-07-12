@@ -57,19 +57,21 @@ nav h1 {
   margin: auto;
 }
 
+.home-text {
+  display: flex;
+  font-family: 'Anonymous Pro', monospace;
+  font-size: 1.5em;
+  align-self: center;
+  padding: 20px;
+  text-align: center;
+}
+
 .icon-wrapper {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 200px;
-}
-
-.home-text {
-  display: flex;
-  font-family: 'Anonymous Pro', monospace;
-  font-size: 24px;
-  align-self: center;
-  padding-top: 20px;
+  padding-left: 0px;
 }
 
 .fa {
@@ -125,9 +127,7 @@ img {
   color: black;
 }
 
-/*----------------------------------------------
-CSS settings for HTML div Exact Center
-------------------------------------------------*/
+/* CONTACT POPUP */
 
 img#close {
   position:absolute;
@@ -193,4 +193,45 @@ input[type=text] {
 span {
   color:red;
   font-weight:700
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 1040px) {
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-transform: uppercase;
+    border-bottom: 1px solid black;
+  }
+
+  nav h1 {
+    align-self: center;
+    font-size: 2.5em;
+  }
+
+  .navigation {
+    align-self: center;
+    padding: 0px;
+    font-size: 1.5em;
+  }
+
+  p.home-text {
+    font-size: 2.5em;
+  }
+
+  .icon-wrapper {
+    width: 250px;
+  }
+
+  .fa:before {
+    font-size: 1.4em;
+  }
+
+  div#contact-popup {
+    top:20%;
+  }
+
 }
