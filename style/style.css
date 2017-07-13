@@ -111,7 +111,7 @@ img {
 
 .about-heading {
   font-family: 'Anonymous Pro', monospace;
-  font-size: 48px;
+  font-size: 46px;
   color: grey;
   text-align: center;
 }
@@ -199,9 +199,9 @@ span {
 
 /* MEDIA QUERIES */
 
-/* Mobile devices */
+/* Smaller browser */
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1035px) {
 
   .menu {
     display: flex;
@@ -212,7 +212,46 @@ span {
   }
 
   nav h1 {
+    padding: 0px;
+    font-size: 2.5em;
+  }
+
+  .navigation {
     align-self: center;
+    padding: 0px;
+    font-size: 1.25em;
+  }
+
+  p.home-text {
+    font-size: 2em;
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+
+  .icon-wrapper {
+    width: 250px;
+  }
+
+  .fa:before {
+    font-size: 1.2em;
+  }
+
+}
+
+/* Mobile devices */
+
+@media only screen and (max-width: 980px) {
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-transform: uppercase;
+    border-bottom: 1px solid black;
+  }
+
+  nav h1 {
+    padding: 0px;
     font-size: 3em;
   }
 
